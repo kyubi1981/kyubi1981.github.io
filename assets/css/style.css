@@ -10,12 +10,12 @@ body {
 /* Hero Section */
 
 #Hero-Section {
-  background-image: url("../img/bg-hero.jpg");
+  background-image: url("../img/bg-hero2.jpg");
   opacity: 55%;
   background-repeat: no-repeat;
   background-size: cover;
   width: auto;
-  /* height: auto; */
+  height:initial ;
   background-position: left;
 }
 
@@ -35,6 +35,32 @@ body {
 }
 
 @media (max-width: 768px) {
+
+  #Hero-Section{
+    background-image: url("../img/bg-hero2.jpg");
+    opacity: 55%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: auto;
+    background-position: center;
+  }
+
+  #Hero-Section, h1{
+    padding-top: 50px;
+    text-align: center;
+    /* color: blue; */
+  }
+
+  #Hero-Section, p{
+    /* padding-top: 200px; */
+    text-align: center;
+  }
+
+  #Hero-Section .btn{
+    /* margin-top: 200px; */
+    justify-content: center;
+  }
+
   #Contac-to-me{
     font-weight: 400;
   }
